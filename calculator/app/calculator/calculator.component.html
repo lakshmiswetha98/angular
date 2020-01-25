@@ -1,0 +1,19 @@
+<div>
+    enter value 1:<input type="text"  id="value1" #val1>
+</div>
+<br>
+<div>
+    enter value 2:<input type="text"  id="value2" #val2>
+</div>
+<br>
+<div>
+    <input type="button"  value="+" (click)="calculate(val1,val2)">
+     <input type="button"  value="-" (click)="calculate(val1,val2)">
+     <input type="button"  value="*" (click)="calculate(val1,val2)">
+     <input type="button"  value="/" (click)="calculate(val1,val2)">
+     <input type="button" value="reset" placeholder="reset"  onclick="reset()"><br><br>
+    
+</div>
+<br>
+<div><h3>result</h3> <input type="text" value="{{result}}"/></div>
+</div>
