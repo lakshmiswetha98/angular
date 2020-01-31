@@ -1,0 +1,33 @@
+{
+  "media": [
+    {
+      "file": "image",
+      "title" :"my image",
+      "category": "tour1",
+      "description": "ooty",
+      "tags": "laksh"
+    },
+    {
+      "file": "image2",
+      "title" :"my image2",
+      "category": "tour2",
+      "description": "mysore",
+      "tags": "silpi"
+    },
+    {
+      "file": "image3",
+      "title" :"my image3",
+      "category": "tour3",
+      "description":"vizag" ,
+      "tags": "sweety"
+    },
+    {
+      "file" :"image4",
+      "title":"my image4",
+      "category":"tour4",
+      "description":"switz",
+      "tags":"swetha"
+    }
+    
+  ]
+}
