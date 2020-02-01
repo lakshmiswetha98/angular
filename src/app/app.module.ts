@@ -3,14 +3,33 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CustomPipeComponent } from './pipes/custom-pipe/custom-pipe.component';
-import { InitialPipe } from './initial.pipe';
+import { HeaderComponent } from './head/header/header.component';
+import { UserComponent } from './head/user/user.component';
+import { LogincComponent } from './login/loginc/loginc.component';
+import { RegisterComponent } from './login/register/register.component';
+import { GalleryComponent } from './media/gallery/gallery.component';
+import { MymediaComponent } from './media/mymedia/mymedia.component';
+import { UploadmediaComponent } from './media/uploadmedia/uploadmedia.component';
+import { FollowersComponent } from './media/followers/followers.component';
+import { MultimediaComponent } from './media/multimedia/multimedia.component';
+import { SinglemediaComponent } from './media/singlemedia/singlemedia.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomPipeComponent,
-    InitialPipe
+    HeaderComponent,
+    UserComponent,
+    LogincComponent,
+    RegisterComponent,
+    GalleryComponent,
+    MymediaComponent,
+    UploadmediaComponent,
+    FollowersComponent,
+    MultimediaComponent,
+    SinglemediaComponent,
+    AccountComponent,
+    
   ],
   imports: [
     BrowserModule,

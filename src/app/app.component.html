@@ -1,1 +1,5 @@
-<app-custom-pipe> </app-custom-pipe>
+<div class="container">
+  <div *ngIf= "auth.isUserLoggedIn()"><header></header></div>
+  <div *ngIf="auth.isUserLoggedIn()"><user></user> </div>
+</div>
+<router-outlet></router-outlet>
